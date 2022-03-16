@@ -20,7 +20,7 @@ steps:
 
 - task: ArchiveFiles@2
   inputs:
-    rootFolderOrFile: '$(Build.SourcesDirectory)\backup'
+    rootFolderOrFile: '$(Build.SourcesDirectory)/backup'
     includeRootFolder: false
     archiveType: zip
     archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
