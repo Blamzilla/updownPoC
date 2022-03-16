@@ -1,0 +1,24 @@
+pool:
+  name: SelfHost
+
+stages:
+- stage: Dev
+
+  jobs:
+   - job: Upload
+     displayName: 'Upload contents'
+     steps:
+     - task: DownloadBuildArtifacts@1
+       inputs:
+          buildType: 'specific'
+          project: 'c5dd1afd-7930-4f3d-a83c-52f2bbf29611'
+          pipeline: '5'
+          buildVersionToDownload: 'latest'
+          downloadType: 'specific'
+          downloadPath: '$(System.ArtifactsDirectory)'
+     - task: CmdLine@2
+       inputs:
+            script: |
+             echo Write your commands here
+             ls
+             echo Hello world
