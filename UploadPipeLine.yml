@@ -20,5 +20,7 @@ stages:
        inputs:
             script: |
              echo Write your commands here
+             mv Rapid*.zip ./backup
+             cd ./backup
              ls
              echo Hello world
