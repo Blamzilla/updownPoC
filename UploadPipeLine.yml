@@ -37,8 +37,5 @@ stages:
        inputs:
           script: |
            'ls'
-     - task: ManualIntervention@8
-       inputs:
-          instructions: 'Check output'
      
             
