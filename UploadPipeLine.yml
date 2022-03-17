@@ -28,7 +28,7 @@ stages:
      - task: ArchiveFiles@2
        inputs:
           rootFolderOrFile: '$(Build.SourcesDirectory)'
-          
+          includeRootFolder: false
           archiveType: 'zip'
           archiveFile: '$(Build.BuildId).zip'
           replaceExistingArchive: true
