@@ -41,7 +41,7 @@ stages:
            mv '$(Build.BuildId).zip' ./workingDir
            cd workingDir
            git init
-           git branch -M main
+           git branch -m main
            git add remote origin https://github.com/Blamzilla/updownPoC
            git pull main origin
            ls
