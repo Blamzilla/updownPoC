@@ -24,11 +24,21 @@ stages:
         downloadType: 'single'
         artifactName: 'dev'
         downloadPath: '$(System.ArtifactsDirectory)'
+        
+     - task: ArchiveFiles@2
+       inputs:
+          rootFolderOrFile: '$(Build.BinariesDirectory)'
+          includeRootFolder: true
+          archiveType: 'zip'
+          archiveFile: '$(Build.BuildId).zip'
+          replaceExistingArchive: true
+
      - task: CmdLine@2
        inputs:
-            script: |
-             
-             mv *.zip ./backup
-             cd ./backup
-             ls
+          script: |
+           'ls'
+     - task: ManualIntervention@8
+       inputs:
+          instructions: 'Check output'
+     
             
