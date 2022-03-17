@@ -27,7 +27,7 @@ stages:
         
      - task: ArchiveFiles@2
        inputs:
-          rootFolderOrFile: '$(Build.SourcesDirectory)/'
+          rootFolderOrFile: '$(Build.SourcesDirectory)/*'
           includeRootFolder: true
           archiveType: 'zip'
           archiveFile: '$(Build.BuildId).zip'
