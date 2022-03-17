@@ -41,6 +41,7 @@ stages:
            mv '$(Build.BuildId).zip' ./workingDir
            cd workingDir
            git init
+           git config --global user.name "Azure DevOps"
            git branch -m main
            git remote add origin https://github.com/Blamzilla/updownPoC
            git pull origin main
@@ -55,6 +56,10 @@ stages:
            echo ""
            rm "${filename}"
            ls
+           git add .
+           git commit -m "New solution ${newName}"
+           git push origin main
+           
           
      
             
