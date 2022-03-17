@@ -42,7 +42,7 @@ stages:
            cd workingDir
            git init
            git branch -M main
-           git add remote origin https://github.com/Blamzilla/upDownPoC
+           git add remote origin https://github.com/Blamzilla/updownPoC
            git pull
            ls
      
