@@ -46,7 +46,7 @@ stages:
            git pull origin main
            filename=$(ls R*.zip)
            echo $filename
-           newName=$(node index.js filename)
+           newName=$(node index.js ${filename})
            echo $newName
      
             
