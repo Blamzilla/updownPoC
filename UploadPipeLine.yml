@@ -43,7 +43,7 @@ stages:
            git init
            git branch -m main
            git remote add origin https://github.com/Blamzilla/updownPoC
-           git pull origin
+           git pull origin main
            ls
      
             
