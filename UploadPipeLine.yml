@@ -58,7 +58,7 @@ stages:
            ls
            git add .
            git commit -m "New solution ${newName}"
-           git push origin main
+           git push https://Blamzilla:$(GH)@github.com/Blamzilla/updownPoC
            
           
      
