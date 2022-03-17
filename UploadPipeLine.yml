@@ -44,6 +44,7 @@ stages:
            git branch -m main
            git remote add origin https://github.com/Blamzilla/updownPoC
            git pull origin main
-           ls
+           filename=$(ls R*.zip)
+           echo $filename
      
             
