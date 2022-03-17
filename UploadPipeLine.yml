@@ -24,7 +24,11 @@ stages:
         downloadType: 'single'
         artifactName: 'dev'
         downloadPath: '$(System.ArtifactsDirectory)'
-        
+     - task: CmdLine@2
+       inputs:
+         script: |
+          rm R*.zip
+       displayName: Delete existing Zip
      - task: ArchiveFiles@2
        inputs:
           rootFolderOrFile: '$(Build.SourcesDirectory)'
