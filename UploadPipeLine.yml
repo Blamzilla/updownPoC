@@ -28,7 +28,8 @@ stages:
        inputs:
          script: |
           rm R*.zip
-       displayName: Delete existing Zip
+          rm -rf .git/
+       displayName: Cleanup artifacts before uploading
      - task: ArchiveFiles@2
        inputs:
           rootFolderOrFile: '$(Build.SourcesDirectory)'
