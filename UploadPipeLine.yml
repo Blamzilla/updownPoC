@@ -8,18 +8,43 @@ stages:
    - job: Upload
      displayName: 'Upload contents'
      steps:
-     - task: DownloadPipelineArtifact@2
+    #  - task: DownloadPipelineArtifact@2
+    #    inputs:
+    #     buildType: 'specific'
+    #     project: 'c5dd1afd-7930-4f3d-a83c-52f2bbf29611'
+    #     definition: '5'
+    #     buildVersionToDownload: 'latest'
+    #     targetPath: '$(Pipeline.Workspace)'
+     - task: DownloadBuildArtifacts@1
        inputs:
         buildType: 'specific'
         project: 'c5dd1afd-7930-4f3d-a83c-52f2bbf29611'
-        definition: '5'
+        pipeline: '5'
         buildVersionToDownload: 'latest'
-        targetPath: '$(Pipeline.Workspace)'
+        downloadType: 'single'
+        artifactName: 'dev'
+        downloadPath: '$(System.ArtifactsDirectory)'
+        
+     - task: ArchiveFiles@2
+       inputs:
+          rootFolderOrFile: '$(Build.BinariesDirectory)'
+          includeRootFolder: true
+          archiveType: 'zip'
+          archiveFile: '$(Build.BuildId).zip'
+          replaceExistingArchive: true
+
      - task: CmdLine@2
        inputs:
-            script: |
-             
-             mv *.zip ./backup
-             cd ./backup
-             ls
+          script: |
+           
+           mkdir workingDir
+           mv '$(Build.BuildId).zip' ./workingDir
+           cd workingDir
+           git init
+           git branch -m main
+           git remote add origin https://github.com/Blamzilla/updownPoC
+           git pull origin main
+           filename=$(ls R*.zip)
+           echo $filename
+     
             
