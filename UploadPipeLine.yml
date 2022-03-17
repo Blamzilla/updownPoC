@@ -36,10 +36,12 @@ stages:
      - task: CmdLine@2
        inputs:
           script: |
-           ls
+           
            mkdir workingDir
            mv '$(Build.BuildId).zip' ./workingDir
            cd workingDir
+           git init
+           git pull
            ls
      
             
