@@ -48,6 +48,13 @@ stages:
            echo $filename
            newName=$(node index.js "{$filename}")
            echo $newName
+           ls
+           echo ""
+           mv '$(Build.BuildId).zip' "{$newName}"
+           ls
+           echo ""
+           rm "${filename}"
+           ls
           
      
             
