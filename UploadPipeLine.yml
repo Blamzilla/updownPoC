@@ -19,8 +19,8 @@ stages:
      - task: CmdLine@2
        inputs:
             script: |
-             echo Write your commands here
-             mv Rapid*.zip ./backup
+             
+             mv *.zip ./backup
              cd ./backup
              ls
-             echo Hello world
+            
