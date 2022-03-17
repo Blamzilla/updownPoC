@@ -8,13 +8,22 @@ stages:
    - job: Upload
      displayName: 'Upload contents'
      steps:
-     - task: DownloadPipelineArtifact@2
+    #  - task: DownloadPipelineArtifact@2
+    #    inputs:
+    #     buildType: 'specific'
+    #     project: 'c5dd1afd-7930-4f3d-a83c-52f2bbf29611'
+    #     definition: '5'
+    #     buildVersionToDownload: 'latest'
+    #     targetPath: '$(Pipeline.Workspace)'
+     - task: DownloadBuildArtifacts@1
        inputs:
         buildType: 'specific'
         project: 'c5dd1afd-7930-4f3d-a83c-52f2bbf29611'
-        definition: '5'
+        pipeline: '5'
         buildVersionToDownload: 'latest'
-        targetPath: '$(Pipeline.Workspace)'
+        downloadType: 'single'
+        artifactName: 'dev'
+        downloadPath: '$(System.ArtifactsDirectory)'
      - task: CmdLine@2
        inputs:
             script: |
