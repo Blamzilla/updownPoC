@@ -36,6 +36,10 @@ stages:
      - task: CmdLine@2
        inputs:
           script: |
-           'ls'
+           ls
+           mkdir workingDir
+           mv '$(Build.BuildId).zip' ./workingDir
+           cd workingDir
+           ls
      
             
