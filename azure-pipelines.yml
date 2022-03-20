@@ -15,6 +15,7 @@ steps:
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
+    rm -rf ./.git
   displayName: 'Run a multi-line script'
 
 - task: ArchiveFiles@2
