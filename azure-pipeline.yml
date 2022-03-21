@@ -13,7 +13,12 @@ jobs:
             mkdir '$(Build.SourcesDirectory)/workingDir'
             
             ls $(Build.BinariesDirectory)/workingDir
-
+        - task: ExtractFiles@1
+          inputs:
+            archiveFilePatterns: '**/*.zip'
+            destinationFolder: '$(Build.SourcesDirectory)/workingDir'
+            cleanDestinationFolder: true
+            overwriteExistingFiles: false
         - task: ArchiveFiles@2
           inputs:
             rootFolderOrFile: '$(Build.SourcesDirectory)/workingDir/'
