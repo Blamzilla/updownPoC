@@ -12,7 +12,7 @@ jobs:
             echo hello
         - task: PublishBuildArtifacts@1
           inputs:
-            PathtoPublish: '$(Build.SourcesDirectory)\*.zip'
+            PathtoPublish: '$(Build.SourcesDirectory)'
             ArtifactName: 'dev'
             FileCopyOptions: '*.zip'
             publishLocation: 'Container'
