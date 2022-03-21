@@ -10,16 +10,17 @@ jobs:
            script: |
             ls
             echo hello
-            mkdir '$(Build.BinariesDirectory)/workingDir'
-            mv Rap*.zip '$(Build.BinariesDirectory)/workingDir'
+            mkdir '$(Build.SourcesDirectory)/workingDir'
+            
             ls $(Build.BinariesDirectory)/workingDir
+
         - task: ArchiveFiles@2
           inputs:
-            rootFolderOrFile: '$(Build.BinariesDirectory)'
+            rootFolderOrFile: '$(Build.SourcesDirectory)/workingDir/'
             includeRootFolder: false
             archiveType: 'zip'
             archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
             replaceExistingArchive: true
-        - publish: '$(Build.ArtifactStagingDirectory)/workingDir'
+        - publish: '$(Build.ArtifactStagingDirectory)/'
           artifact: dev
           displayName: Publish Dev artifact
