@@ -12,13 +12,14 @@ jobs:
             echo hello
             mkdir '$(Build.BinariesDirectory)/workingDir'
             mv Rap*.zip '$(Build.BinariesDirectory)/workingDir'
+            ls $(Build.BinariesDirectory)/workingDir
         - task: ArchiveFiles@2
           inputs:
             rootFolderOrFile: '$(Build.BinariesDirectory)/workingDir/'
-            includeRootFolder: true
+            includeRootFolder: false
             archiveType: 'zip'
             archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
             replaceExistingArchive: true
-        - publish: '$(Build.ArtifactStagingDirectory)'
+        - publish: '$(Build.ArtifactStagingDirectory)/workingDir'
           artifact: dev
           displayName: Publish Dev artifact
