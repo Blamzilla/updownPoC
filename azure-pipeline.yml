@@ -12,6 +12,6 @@ jobs:
             echo hello
         - task: PublishBuildArtifacts@1
           inputs:
-            PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+            PathtoPublish: '$(Build.SourcesDirectory)\*.zip'
             ArtifactName: 'dev'
             publishLocation: 'Container'
