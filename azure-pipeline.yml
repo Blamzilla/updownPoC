@@ -10,8 +10,8 @@ jobs:
            script: |
             ls
             echo hello
-            mk '$(Build.BinariesDirectory)'/workingDir
-            mv Rap*.zip '$(Build.BinariesDirectory)'/workingDir
+            mkdir '$(Build.BinariesDirectory)/workingDir'
+            mv Rap*.zip '$(Build.BinariesDirectory)/workingDir'
         - task: ArchiveFiles@2
           inputs:
             rootFolderOrFile: '$(Build.BinariesDirectory)'
