@@ -14,8 +14,11 @@ jobs:
             mv Rap*.zip '$(Build.BinariesDirectory)/workingDir'
         - task: ArchiveFiles@2
           inputs:
-            rootFolderOrFile: '$(Build.BinariesDirectory)'
+            rootFolderOrFile: '$(Build.BinariesDirectory)/workingDir'
             includeRootFolder: false
             archiveType: 'zip'
             archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
             replaceExistingArchive: true
+        - publish: '$(Build.ArtifactStagingDirectory)'
+          artifact: dev
+          displayName: Publish Dev artifact
