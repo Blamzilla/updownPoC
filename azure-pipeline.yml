@@ -5,6 +5,11 @@ pool:
 jobs:
     - job: BuildArchive
       steps:       
+        - task: CmdLine@2
+          inputs:
+           script: |
+            ls
+            echo hello
         - task: PublishBuildArtifacts@1
           inputs:
             PathtoPublish: '$(Build.ArtifactStagingDirectory)'
