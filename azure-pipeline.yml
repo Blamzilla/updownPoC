@@ -10,9 +10,12 @@ jobs:
            script: |
             ls
             echo hello
-        - task: PublishBuildArtifacts@1
+            mk '$(Build.BinariesDirectory)'/workingDir
+            mv Rap*.zip '$(Build.BinariesDirectory)'/workingDir
+        - task: ArchiveFiles@2
           inputs:
-            PathtoPublish: '$(Build.SourcesDirectory)'
-            ArtifactName: 'dev'
-            FileCopyOptions: '*.zip'
-            publishLocation: 'Container'
+            rootFolderOrFile: '$(Build.BinariesDirectory)'
+            includeRootFolder: false
+            archiveType: 'zip'
+            archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+            replaceExistingArchive: true
