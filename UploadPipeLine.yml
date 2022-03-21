@@ -24,11 +24,16 @@ stages:
         downloadType: 'single'
         artifactName: 'dev'
         downloadPath: '$(System.ArtifactsDirectory)'
-        
+     - task: CmdLine@2
+       inputs:
+         script: |
+          rm R*.zip
+          rm -rf .git/
+       displayName: Cleanup artifacts before uploading
      - task: ArchiveFiles@2
        inputs:
-          rootFolderOrFile: '$(Build.BinariesDirectory)'
-          includeRootFolder: true
+          rootFolderOrFile: '$(Build.SourcesDirectory)'
+          includeRootFolder: false
           archiveType: 'zip'
           archiveFile: '$(Build.BuildId).zip'
           replaceExistingArchive: true
@@ -41,10 +46,25 @@ stages:
            mv '$(Build.BuildId).zip' ./workingDir
            cd workingDir
            git init
+           git config --global user.name "Azure DevOps"
            git branch -m main
            git remote add origin https://github.com/Blamzilla/updownPoC
            git pull origin main
            filename=$(ls R*.zip)
            echo $filename
+           newName=$(node index.js "{$filename}")
+           echo $newName
+           ls
+           echo ""
+           mv '$(Build.BuildId).zip' "${newName}"
+           ls
+           echo ""
+           rm "${filename}"
+           ls
+           git add .
+           git commit -m "New solution ${newName}"
+           git push https://Blamzilla:$(GH)@github.com/Blamzilla/updownPoC
+           
+          
      
             
