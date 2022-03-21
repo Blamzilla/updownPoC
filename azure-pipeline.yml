@@ -1,0 +1,12 @@
+pool:
+  name: SelfPool
+
+
+jobs:
+    - job: BuildArchive
+      steps:       
+        - task: PublishBuildArtifacts@1
+          inputs:
+            PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+            ArtifactName: 'dev'
+            publishLocation: 'Container'
