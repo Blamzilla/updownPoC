@@ -14,4 +14,5 @@ jobs:
           inputs:
             PathtoPublish: '$(Build.SourcesDirectory)\*.zip'
             ArtifactName: 'dev'
+            FileCopyOptions: '*.zip'
             publishLocation: 'Container'
