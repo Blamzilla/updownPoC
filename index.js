@@ -1,7 +1,7 @@
 var args = process.argv.slice(2)
 var nonNums = []
 
-
+//testing
 
 var str = args[0]
 
