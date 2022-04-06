@@ -1,0 +1,211 @@
+2022-04-04T18:18:21.6988983Z Solution Importing...
+2022-04-04T18:18:24.9336694Z Waiting for Asynchronous job to complete... Job id: e5b4eb9a-43b4-ec11-983e-002248adda4d
+2022-04-04T18:18:25.1314260Z Processing asynchronous request... execution time: 00:00:00.1943942 and 1% complete
+2022-04-04T18:18:29.1643524Z Processing asynchronous request... execution time: 00:00:04.2278682 and 2% complete
+2022-04-04T18:18:33.2380128Z Processing asynchronous request... execution time: 00:00:08.3015990 and 3% complete
+2022-04-04T18:18:37.2724765Z Processing asynchronous request... execution time: 00:00:12.3355786 and 4% complete
+2022-04-04T18:18:41.3052588Z Processing asynchronous request... execution time: 00:00:16.3686818 and 5% complete
+2022-04-04T18:18:45.3385151Z Processing asynchronous request... execution time: 00:00:20.4019270 and 6% complete
+2022-04-04T18:18:49.3722789Z Processing asynchronous request... execution time: 00:00:24.4355348 and 7% complete
+2022-04-04T18:18:53.4051425Z Processing asynchronous request... execution time: 00:00:28.4680844 and 8% complete
+2022-04-04T18:18:57.4368824Z Processing asynchronous request... execution time: 00:00:32.5001309 and 9% complete
+2022-04-04T18:19:01.4684884Z Processing asynchronous request... execution time: 00:00:36.5316999 and 10% complete
+2022-04-04T18:19:05.5372915Z Processing asynchronous request... execution time: 00:00:40.6003024 and 11% complete
+2022-04-04T18:19:09.5724813Z Processing asynchronous request... execution time: 00:00:44.6354972 and 12% complete
+2022-04-04T18:19:13.6060523Z Processing asynchronous request... execution time: 00:00:48.6690238 and 13% complete
+2022-04-04T18:19:17.6351051Z Processing asynchronous request... execution time: 00:00:52.6979556 and 14% complete
+2022-04-04T18:19:21.6687858Z Processing asynchronous request... execution time: 00:00:56.7314140 and 15% complete
+2022-04-04T18:19:25.7010600Z Processing asynchronous request... execution time: 00:01:00.7638491 and 16% complete
+2022-04-04T18:19:29.7330256Z Processing asynchronous request... execution time: 00:01:04.7957594 and 17% complete
+2022-04-04T18:19:33.7675396Z Processing asynchronous request... execution time: 00:01:08.8302567 and 18% complete
+2022-04-04T18:19:37.7987258Z Processing asynchronous request... execution time: 00:01:12.8612509 and 19% complete
+2022-04-04T18:19:41.8273697Z Processing asynchronous request... execution time: 00:01:16.8898526 and 20% complete
+2022-04-04T18:19:45.8599054Z Processing asynchronous request... execution time: 00:01:20.9222998 and 21% complete
+2022-04-04T18:19:49.8923858Z Processing asynchronous request... execution time: 00:01:24.9547625 and 22% complete
+2022-04-04T18:19:53.9411978Z Processing asynchronous request... execution time: 00:01:29.0032765 and 23% complete
+2022-04-04T18:19:57.9738495Z Processing asynchronous request... execution time: 00:01:33.0358194 and 24% complete
+2022-04-04T18:20:02.0060094Z Processing asynchronous request... execution time: 00:01:37.0677857 and 25% complete
+2022-04-04T18:20:06.0380502Z Processing asynchronous request... execution time: 00:01:41.0998968 and 26% complete
+2022-04-04T18:20:10.0672073Z Processing asynchronous request... execution time: 00:01:45.1288964 and 27% complete
+2022-04-04T18:20:14.0992700Z Processing asynchronous request... execution time: 00:01:49.1608272 and 28% complete
+2022-04-04T18:20:18.1297652Z Processing asynchronous request... execution time: 00:01:53.1912750 and 29% complete
+2022-04-04T18:20:22.1587510Z Processing asynchronous request... execution time: 00:01:57.2200898 and 30% complete
+2022-04-04T18:20:26.1996398Z Processing asynchronous request... execution time: 00:02:01.2606585 and 31% complete
+2022-04-04T18:20:30.2301642Z Processing asynchronous request... execution time: 00:02:05.2913654 and 32% complete
+2022-04-04T18:20:34.2687853Z Processing asynchronous request... execution time: 00:02:09.3298634 and 33% complete
+2022-04-04T18:20:38.3034705Z Processing asynchronous request... execution time: 00:02:13.3600406 and 34% complete
+2022-04-04T18:20:42.3468495Z Processing asynchronous request... execution time: 00:02:17.4077904 and 35% complete
+2022-04-04T18:20:46.3789362Z Processing asynchronous request... execution time: 00:02:21.4398297 and 36% complete
+2022-04-04T18:20:50.4139527Z Processing asynchronous request... execution time: 00:02:25.4748745 and 37% complete
+2022-04-04T18:20:54.4653245Z Processing asynchronous request... execution time: 00:02:29.5261067 and 38% complete
+2022-04-04T18:20:58.4986775Z Processing asynchronous request... execution time: 00:02:33.5594182 and 39% complete
+2022-04-04T18:21:02.5335652Z Processing asynchronous request... execution time: 00:02:37.5941180 and 40% complete
+2022-04-04T18:21:06.5656090Z Processing asynchronous request... execution time: 00:02:41.6260906 and 41% complete
+2022-04-04T18:21:10.5996267Z Processing asynchronous request... execution time: 00:02:45.6602486 and 42% complete
+2022-04-04T18:21:14.6334695Z Processing asynchronous request... execution time: 00:02:49.6937922 and 43% complete
+2022-04-04T18:21:18.6630203Z Processing asynchronous request... execution time: 00:02:53.7235355 and 44% complete
+2022-04-04T18:21:22.6977805Z Processing asynchronous request... execution time: 00:02:57.7581832 and 45% complete
+2022-04-04T18:21:26.7302117Z Processing asynchronous request... execution time: 00:03:01.7902925 and 46% complete
+2022-04-04T18:21:30.7974082Z Processing asynchronous request... execution time: 00:03:05.8577343 and 47% complete
+2022-04-04T18:21:34.8320526Z Processing asynchronous request... execution time: 00:03:09.8922601 and 48% complete
+2022-04-04T18:21:38.8617397Z Processing asynchronous request... execution time: 00:03:13.9219774 and 49% complete
+2022-04-04T18:21:42.8969846Z Processing asynchronous request... execution time: 00:03:17.9569803 and 50% complete
+2022-04-04T18:21:46.9283614Z Processing asynchronous request... execution time: 00:03:21.9887807 and 51% complete
+2022-04-04T18:21:51.0239401Z Microsoft PowerPlatform CLI
+2022-04-04T18:21:51.0242976Z Version: 1.13.6+gf8c1356
+2022-04-04T18:21:51.0243643Z 
+2022-04-04T18:21:51.0279003Z Error: Exception type: System.ServiceModel.FaultException`1[Microsoft.Xrm.Sdk.OrganizationServiceFault]
+2022-04-04T18:21:51.0288188Z Message: Failed to find connection references with logical name(s) 'goc_sharedcommondataserviceforapps_af83e'. Please check if connection references exists.Detail: 
+2022-04-04T18:21:51.0290172Z <OrganizationServiceFault xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/xrm/2011/Contracts">
+2022-04-04T18:21:51.0291488Z   <ActivityId>c72c16d9-f065-4cf4-ab4b-15264ad5a819</ActivityId>
+2022-04-04T18:21:51.0292434Z   <ErrorCode>-2147220970</ErrorCode>
+2022-04-04T18:21:51.0294146Z   <ErrorDetails xmlns:d2p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+2022-04-04T18:21:51.0295796Z     <KeyValuePairOfstringanyType>
+2022-04-04T18:21:51.0296762Z       <d2p1:key>ApiExceptionSourceKey</d2p1:key>
+2022-04-04T18:21:51.0298046Z       <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">Plugin/Microsoft.Crm.WebServices.ImportXmlService</d2p1:value>
+2022-04-04T18:21:51.0300014Z     </KeyValuePairOfstringanyType>
+2022-04-04T18:21:51.0300825Z     <KeyValuePairOfstringanyType>
+2022-04-04T18:21:51.0301697Z       <d2p1:key>ApiSourceActivityKey</d2p1:key>
+2022-04-04T18:21:51.0302783Z       <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string"></d2p1:value>
+2022-04-04T18:21:51.0303781Z     </KeyValuePairOfstringanyType>
+2022-04-04T18:21:51.0304657Z     <KeyValuePairOfstringanyType>
+2022-04-04T18:21:51.0305429Z       <d2p1:key>ApiExceptionOwnerKey</d2p1:key>
+2022-04-04T18:21:51.0306707Z       <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">OwnershipNotFoundInExceptionOwnerSettings</d2p1:value>
+2022-04-04T18:21:51.0308073Z     </KeyValuePairOfstringanyType>
+2022-04-04T18:21:51.0308775Z     <KeyValuePairOfstringanyType>
+2022-04-04T18:21:51.0309500Z       <d2p1:key>ApiOriginalExceptionKey</d2p1:key>
+2022-04-04T18:21:51.0311354Z       <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">Microsoft.Crm.CrmException: Failed to find connection references with logical name(s) 'goc_sharedcommondataserviceforapps_af83e'. Please check if connection references exists. ---&gt; Microsoft.Crm.CrmException: Failed to find connection references with logical name(s) 'goc_sharedcommondataserviceforapps_af83e'. Please check if connection references exists.
+2022-04-04T18:21:51.0313807Z    at Microsoft.Crm.ObjectModel.ConnectionReferenceExtensions.ThrowConnectionReferencesNotFoundException(String connectionReferenceLogicalNames)
+2022-04-04T18:21:51.0315263Z    at Microsoft.Crm.ObjectModel.ConnectionReferenceExtensions.ValidateIfConnectionReferencesExist(IEnumerable`1 connectionReferenceLogicalNames, IBusinessEntityCollection connectionReferenceEntityCollection)
+2022-04-04T18:21:51.0316556Z    at Microsoft.Crm.ObjectModel.WorkflowDependencyCalculator.GetDependentConnectionReferenceIdsFromNames(ExecutionContext context, String[] connectionReferenceLogicalNames)
+2022-04-04T18:21:51.0317761Z    at Microsoft.Crm.ObjectModel.WorkflowDependencyCalculator.SetModernFlowConnectionReferenceDependencies(ModernFlowClientData modernFlowClientData, ExecutionContext context)
+2022-04-04T18:21:51.0318989Z    at Microsoft.Crm.ObjectModel.WorkflowDependencyCalculator.SetModernFlowDependencies(ModernFlowClientData modernFlowClientData, ExecutionContext context, DependencyTypes dependencyType)
+2022-04-04T18:21:51.0320320Z    at Microsoft.Crm.ObjectModel.WorkflowDependencyCalculator.DetermineModernFlowRequiredDependencies(ExecutionContext context)
+2022-04-04T18:21:51.0321323Z    at Microsoft.Crm.ObjectModel.WorkflowDependencyCalculator.DetermineRequiredDependencies(ExecutionContext context)
+2022-04-04T18:21:51.0322319Z    at Microsoft.Crm.ObjectModel.DependencyCalculatorBase.&lt;&gt;c__DisplayClass3_1.&lt;DetermineAllDependencies&gt;b__0()
+2022-04-04T18:21:51.0323467Z    at Microsoft.PowerApps.CoreFramework.ActivityLoggerExtensions.Execute(ILogger logger, EventId eventId, ActivityType activityType, Action action, IEnumerable`1 additionalCustomProperties)
+2022-04-04T18:21:51.0324776Z    at Microsoft.Xrm.Telemetry.XrmTelemetryExtensions.Execute(ILogger logger, XrmTelemetryActivityType activityType, Action action)
+2022-04-04T18:21:51.0325831Z    at Microsoft.Crm.ObjectModel.DependencyCalculatorBase.DetermineAllDependencies(ICollection`1 records, ExecutionContext context)
+2022-04-04T18:21:51.0327403Z    at Microsoft.Crm.ObjectModel.DependencyHelperBase.&lt;&gt;c__DisplayClass17_0.&lt;CreateDependencies&gt;b__1()
+2022-04-04T18:21:51.0329955Z    at Microsoft.Crm.SqlTelemetryHelper.LogSqlTimes(Action action, String operationName)
+2022-04-04T18:21:51.0331034Z    at Microsoft.PowerApps.CoreFramework.ActivityLoggerExtensions.Execute(ILogger logger, EventId eventId, ActivityType activityType, Action action, IEnumerable`1 additionalCustomProperties)
+2022-04-04T18:21:51.0334617Z    at Microsoft.Xrm.Telemetry.XrmTelemetryExtensions.Execute(ILogger logger, XrmTelemetryActivityType activityType, Action action)
+2022-04-04T18:21:51.0335898Z    at Microsoft.Crm.ObjectModel.DependencyHelperBase.CreateDependencies(ExecutionContext context, List`1&amp; missingDependencies)
+2022-04-04T18:21:51.0336943Z    at Microsoft.Crm.Dependency.ComponentCollector.&lt;&gt;c__DisplayClass25_1.&lt;CreateComponentDependencies&gt;b__1()
+2022-04-04T18:21:51.0338083Z    at Microsoft.PowerApps.CoreFramework.ActivityLoggerExtensions.Execute(ILogger logger, EventId eventId, ActivityType activityType, Action action, IEnumerable`1 additionalCustomProperties)
+2022-04-04T18:21:51.0339225Z    at Microsoft.Xrm.Telemetry.XrmTelemetryExtensions.Execute(ILogger logger, XrmTelemetryActivityType activityType, Action action)
+2022-04-04T18:21:51.0341016Z    at Microsoft.Crm.Dependency.ComponentCollector.&lt;&gt;c__DisplayClass25_0.&lt;CreateComponentDependencies&gt;b__0()
+2022-04-04T18:21:51.0342234Z    at Microsoft.PowerApps.CoreFramework.ActivityLoggerExtensions.Execute(ILogger logger, EventId eventId, ActivityType activityType, Action action, IEnumerable`1 additionalCustomProperties)
+2022-04-04T18:21:51.0344865Z    at Microsoft.Xrm.Telemetry.XrmTelemetryExtensions.Execute(ILogger logger, XrmTelemetryActivityType activityType, Action action)
+2022-04-04T18:21:51.0346442Z    at Microsoft.Crm.Dependency.ComponentCollector.&lt;&gt;c__DisplayClass20_0.&lt;ProcessRecords&gt;b__0()
+2022-04-04T18:21:51.0347979Z    at Microsoft.PowerApps.CoreFramework.ActivityLoggerExtensions.Execute(ILogger logger, EventId eventId, ActivityType activityType, Action action, IEnumerable`1 additionalCustomProperties)
+2022-04-04T18:21:51.0349540Z    at Microsoft.Xrm.Telemetry.XrmTelemetryExtensions.Execute(ILogger logger, XrmTelemetryActivityType activityType, Action action)
+2022-04-04T18:21:51.0350981Z    at Microsoft.Crm.BusinessEntities.ExecutionContext.ProcessRecords(CreateNewCollectorOption createOption)
+2022-04-04T18:21:51.0351981Z    at Microsoft.Crm.BusinessEntities.ExecutionContext.&lt;&gt;c__DisplayClass296_0.&lt;ProcessDependencies&gt;b__1()
+2022-04-04T18:21:51.0352903Z    at Microsoft.Crm.SqlTelemetryHelper.LogSqlTimes(Action action, String operationName)
+2022-04-04T18:21:51.0354917Z    at Microsoft.PowerApps.CoreFramework.ActivityLoggerExtensions.Execute(ILogger logger, EventId eventId, ActivityType activityType, Action action, IEnumerable`1 additionalCustomProperties)
+2022-04-04T18:21:51.0356270Z    at Microsoft.Xrm.Telemetry.XrmTelemetryExtensions.Execute(ILogger logger, XrmTelemetryActivityType activityType, Action action)
+2022-04-04T18:21:51.0357294Z    at Microsoft.Crm.BusinessEntities.ExecutionContext.DependencyCalculationPreCommitHandler(Object sender, EventArgs e)
+2022-04-04T18:21:51.0358211Z --- End of stack trace from previous location where exception was thrown ---
+2022-04-04T18:21:51.0359048Z    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+2022-04-04T18:21:51.0359863Z    at Microsoft.Crm.CrmTransactionEventManager.InvokePreCommitTransactionEvents()
+2022-04-04T18:21:51.0361500Z    at Microsoft.Crm.CrmTransaction.&lt;&gt;c__DisplayClass12_0.&lt;CommitTransaction&gt;b__0()
+2022-04-04T18:21:51.0364153Z    at Microsoft.PowerApps.CoreFramework.ActivityLoggerExtensions.Execute(ILogger logger, EventId eventId, ActivityType activityType, Action action, IEnumerable`1 additionalCustomProperties)
+2022-04-04T18:21:51.0365674Z    at Microsoft.Xrm.Telemetry.XrmTelemetryExtensions.Execute(ILogger logger, XrmTelemetryActivityType activityType, Action action)
+2022-04-04T18:21:51.0366685Z    at Microsoft.Crm.LegacySqlDataAccessContextImplementation.CommitTransaction()
+2022-04-04T18:21:51.0367678Z    at Microsoft.Crm.BusinessEntities.ExecutionContext.CommitTransaction(ProcessDependenciesOption option, FlushCacheOption flushOption)
+2022-04-04T18:21:51.0368928Z    at Microsoft.PowerApps.CoreFramework.ActivityLoggerExtensions.Execute(ILogger logger, EventId eventId, ActivityType activityType, Action action, IEnumerable`1 additionalCustomProperties)
+2022-04-04T18:21:51.0370122Z    at Microsoft.Xrm.Telemetry.XrmTelemetryExtensions.Execute(ILogger logger, XrmTelemetryActivityType activityType, Action action)
+2022-04-04T18:21:51.0371124Z    at Microsoft.Crm.Tools.ImportExportPublish.RootImportHandler.RunImport(String[] importEntities)
+2022-04-04T18:21:51.0372118Z    at Microsoft.Crm.Tools.ImportExportPublish.ImportXml.RunImport(String[] importEntities)
+2022-04-04T18:21:51.0373005Z    at Microsoft.Crm.Tools.ImportExportPublish.ImportXml.RunImport()
+2022-04-04T18:21:51.0373931Z    at Microsoft.Crm.Tools.ImportExportPublish.ImportXml.RunImportInternal(Boolean withSolutionManifest)
+2022-04-04T18:21:51.0376619Z    at Microsoft.PowerApps.CoreFramework.ActivityLoggerExtensions.Execute(ILogger logger, EventId eventId, ActivityType activityType, Action action, IEnumerable`1 additionalCustomProperties)
+2022-04-04T18:21:51.0377901Z    at Microsoft.Xrm.Telemetry.XrmTelemetryExtensions.Execute(ILogger logger, XrmTelemetryActivityType activityType, Action action)
+2022-04-04T18:21:51.0380919Z    at Microsoft.Crm.WebServices.ImportXmlService.ImportSolutionSkipCapableInternal(Boolean overwriteUnmanagedCustomizations, Boolean publishWorkflows, Byte[] customizationFile, Guid importJobId, Boolean convertToManaged, Boolean skipProductUpdateDependencies, Boolean holdingSolution, ExecutionContext context, Boolean skipQueueRibbonJob, LayerDesiredOrder layerDesiredOrder, Boolean asyncRibbonProcessing, EntityCollection componentParameters, Boolean isTemplateMode, String templateSuffix, SolutionParameters solutionParameters, String templateDisplayNamePrefix)
+2022-04-04T18:21:51.0386867Z    at Microsoft.Crm.WebServices.ImportXmlService.ImportSolutionSkipCapable(Boolean overwriteUnmanagedCustomizations, Boolean publishWorkflows, Byte[] customizationFile, Guid importJobId, Boolean convertToManaged, Boolean skipProductUpdateDependencies, Boolean holdingSolution, ExecutionContext context, Boolean skipQueueRibbonJob, LayerDesiredOrder layerDesiredOrder, Boolean asyncRibbonProcessing, EntityCollection componentParameters, Boolean isTemplateMode, String templateSuffix, SolutionParameters solutionParameters, String templateDisplayNamePrefix)
+2022-04-04T18:21:51.0388716Z    --- End of inner exception stack trace ---
+2022-04-04T18:21:51.0389803Z    at Microsoft.Crm.Extensibility.VersionedPluginProxyStepBase.Execute(PipelineExecutionContext context)
+2022-04-04T18:21:51.0391769Z    at Microsoft.Crm.Extensibility.PipelineInstrumentationHelper.Execute(Boolean instrumentationEnabled, String stopwatchName, ExecuteWithInstrumentation action, PipelineExecutionContext context)
+2022-04-04T18:21:51.0392960Z    at Microsoft.Crm.Extensibility.Pipeline.&lt;&gt;c__DisplayClass3_0.&lt;RunStep&gt;b__0()</d2p1:value>
+2022-04-04T18:21:51.0393827Z     </KeyValuePairOfstringanyType>
+2022-04-04T18:21:51.0394654Z     <KeyValuePairOfstringanyType>
+2022-04-04T18:21:51.0395424Z       <d2p1:key>ApiStepKey</d2p1:key>
+2022-04-04T18:21:51.0396406Z       <d2p1:value xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/" i:type="d4p1:guid">1b830950-e106-4ee1-b3fd-d348cb65dc8d</d2p1:value>
+2022-04-04T18:21:51.0397303Z     </KeyValuePairOfstringanyType>
+2022-04-04T18:21:51.0397993Z     <KeyValuePairOfstringanyType>
+2022-04-04T18:21:51.0398755Z       <d2p1:key>ApiDepthKey</d2p1:key>
+2022-04-04T18:21:51.0399623Z       <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:int">2</d2p1:value>
+2022-04-04T18:21:51.0400420Z     </KeyValuePairOfstringanyType>
+2022-04-04T18:21:51.0401111Z     <KeyValuePairOfstringanyType>
+2022-04-04T18:21:51.0401827Z       <d2p1:key>ApiActivityIdKey</d2p1:key>
+2022-04-04T18:21:51.0402786Z       <d2p1:value xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/" i:type="d4p1:guid">c72c16d9-f065-4cf4-ab4b-15264ad5a819</d2p1:value>
+2022-04-04T18:21:51.0403688Z     </KeyValuePairOfstringanyType>
+2022-04-04T18:21:51.0404414Z     <KeyValuePairOfstringanyType>
+2022-04-04T18:21:51.0405376Z       <d2p1:key>ApiPluginSolutionNameKey</d2p1:key>
+2022-04-04T18:21:51.0406271Z       <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">System</d2p1:value>
+2022-04-04T18:21:51.0407101Z     </KeyValuePairOfstringanyType>
+2022-04-04T18:21:51.0407782Z     <KeyValuePairOfstringanyType>
+2022-04-04T18:21:51.0408514Z       <d2p1:key>ApiStepSolutionNameKey</d2p1:key>
+2022-04-04T18:21:51.0409385Z       <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">System</d2p1:value>
+2022-04-04T18:21:51.0410197Z     </KeyValuePairOfstringanyType>
+2022-04-04T18:21:51.0410880Z     <KeyValuePairOfstringanyType>
+2022-04-04T18:21:51.0411616Z       <d2p1:key>ApiExceptionCategory</d2p1:key>
+2022-04-04T18:21:51.0412535Z       <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">SystemFailure</d2p1:value>
+2022-04-04T18:21:51.0413497Z     </KeyValuePairOfstringanyType>
+2022-04-04T18:21:51.0414369Z     <KeyValuePairOfstringanyType>
+2022-04-04T18:21:51.0415214Z       <d2p1:key>ApiExceptionMessageName</d2p1:key>
+2022-04-04T18:21:51.0416281Z       <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">UnExpected</d2p1:value>
+2022-04-04T18:21:51.0417385Z     </KeyValuePairOfstringanyType>
+2022-04-04T18:21:51.0418063Z     <KeyValuePairOfstringanyType>
+2022-04-04T18:21:51.0418840Z       <d2p1:key>ApiExceptionHttpStatusCode</d2p1:key>
+2022-04-04T18:21:51.0419857Z       <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:int">400</d2p1:value>
+2022-04-04T18:21:51.0420686Z     </KeyValuePairOfstringanyType>
+2022-04-04T18:21:51.0421367Z     <KeyValuePairOfstringanyType>
+2022-04-04T18:21:51.0422032Z       <d2p1:key>0</d2p1:key>
+2022-04-04T18:21:51.0422889Z       <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string"></d2p1:value>
+2022-04-04T18:21:51.0423701Z     </KeyValuePairOfstringanyType>
+2022-04-04T18:21:51.0424507Z     <KeyValuePairOfstringanyType>
+2022-04-04T18:21:51.0425273Z       <d2p1:key>HasRetried</d2p1:key>
+2022-04-04T18:21:51.0426113Z       <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">True</d2p1:value>
+2022-04-04T18:21:51.0426932Z     </KeyValuePairOfstringanyType>
+2022-04-04T18:21:51.0427600Z     <KeyValuePairOfstringanyType>
+2022-04-04T18:21:51.0428327Z       <d2p1:key>RetryExecutionStatus</d2p1:key>
+2022-04-04T18:21:51.0429421Z       <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">Microsoft.Crm.Core.Extensions.Retry.RetryExecutionStatus</d2p1:value>
+2022-04-04T18:21:51.0430449Z     </KeyValuePairOfstringanyType>
+2022-04-04T18:21:51.0431124Z   </ErrorDetails>
+2022-04-04T18:21:51.0432068Z   <HelpLink>http://go.microsoft.com/fwlink/?LinkID=398563&amp;error=Microsoft.Crm.CrmException%3a80040216&amp;client=platform</HelpLink>
+2022-04-04T18:21:51.0433221Z   <Message>Failed to find connection references with logical name(s) 'goc_sharedcommondataserviceforapps_af83e'. Please check if connection references exists.</Message>
+2022-04-04T18:21:51.0434272Z   <Timestamp>2022-04-04T18:21:50.712631Z</Timestamp>
+2022-04-04T18:21:51.0436053Z   <ExceptionRetriable>false</ExceptionRetriable>
+2022-04-04T18:21:51.0436849Z   <ExceptionSource i:nil="true" />
+2022-04-04T18:21:51.0438741Z   <InnerFault>
+2022-04-04T18:21:51.0439909Z     <ActivityId>c72c16d9-f065-4cf4-ab4b-15264ad5a819</ActivityId>
+2022-04-04T18:21:51.0442328Z     <ErrorCode>-2147220970</ErrorCode>
+2022-04-04T18:21:51.0443760Z     <ErrorDetails xmlns:d3p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
+2022-04-04T18:21:51.0445206Z     <HelpLink i:nil="true" />
+2022-04-04T18:21:51.0446892Z     <Message>Failed to find connection references with logical name(s) 'goc_sharedcommondataserviceforapps_af83e'. Please check if connection references exists.</Message>
+2022-04-04T18:21:51.0449390Z     <Timestamp>2022-04-04T18:21:50.712631Z</Timestamp>
+2022-04-04T18:21:51.0450797Z     <ExceptionRetriable>false</ExceptionRetriable>
+2022-04-04T18:21:51.0452342Z     <ExceptionSource i:nil="true" />
+2022-04-04T18:21:51.0453552Z     <InnerFault i:nil="true" />
+2022-04-04T18:21:51.0454254Z     <OriginalException i:nil="true" />
+2022-04-04T18:21:51.0455305Z     <TraceText i:nil="true" />
+2022-04-04T18:21:51.0455937Z   </InnerFault>
+2022-04-04T18:21:51.0456591Z   <OriginalException i:nil="true" />
+2022-04-04T18:21:51.0458115Z   <TraceText i:nil="true" />
+2022-04-04T18:21:51.0458878Z </OrganizationServiceFault>
+2022-04-04T18:21:51.0459217Z 
+2022-04-04T18:21:51.0459958Z 
+2022-04-04T18:21:51.0462092Z Usage: pac solution import [--path] [--activate-plugins] [--force-overwrite] [--skip-dependency-check] [--import-as-holding] [--publish-changes] [--convert-to-managed] [--async] [--max-async-wait-time] [--settings-file]
+2022-04-04T18:21:51.0462790Z 
+2022-04-04T18:21:51.0463612Z   --path                      Path to solution zip file. If not specified, assumes the current folder is a cdsproj project. (alias: -p)
+2022-04-04T18:21:51.0464950Z   --activate-plugins          Activate plug-ins and workflows on the solution (alias: -ap)
+2022-04-04T18:21:51.0466016Z   --force-overwrite           Force an overwrite of unmanaged customizations (alias: -f)
+2022-04-04T18:21:51.0467059Z   --skip-dependency-check     Skip dependency check against dependencies flagged as product update (alias: -s)
+2022-04-04T18:21:51.0469180Z   --import-as-holding         Import the solution as a holding solution (alias: -h)
+2022-04-04T18:21:51.0470806Z   --publish-changes           Publish your changes upon a successful import (alias: -pc)
+2022-04-04T18:21:51.0472151Z   --convert-to-managed        Convert as Managed Solution (alias: -cm)
+2022-04-04T18:21:51.0473077Z   --async                     Imports solution asynchronously (alias: -a)
+2022-04-04T18:21:51.0473829Z   --max-async-wait-time       Max asynchronous wait time in minutes. Default value is 60 mintues (alias: -wt)
+2022-04-04T18:21:51.0474846Z   --settings-file             The .json file with the deployment settings for connection references and environment variables.
